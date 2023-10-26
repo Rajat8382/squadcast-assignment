@@ -1,0 +1,35 @@
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	position: relative;
+}
+
+.suggestions {
+	position: absolute;
+	top: 100%;
+	margin-top: 8px;
+	border: 1px solid #eee;
+	min-width: 200px;
+	max-width: 100%;
+	list-style-type: none;
+	padding: 4px 10px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+.suggestions li {
+	cursor: pointer;
+	margin: 4px 0;
+}
+
+.suggestions li:hover {
+	color: rgb(4, 4, 235);
+}
